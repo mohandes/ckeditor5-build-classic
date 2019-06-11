@@ -15,6 +15,7 @@ import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
@@ -47,6 +48,7 @@ ClassicEditor.builtinPlugins = [
 	ImageToolbar,
 	ImageUpload,
 	Link,
+	Alignment,
 	List,
 	MediaEmbed,
 	Paragraph,
@@ -64,6 +66,7 @@ ClassicEditor.defaultConfig = {
 			'bold',
 			'italic',
 			'link',
+			'alignment',
 			'bulletedList',
 			'numberedList',
 			'imageUpload',
